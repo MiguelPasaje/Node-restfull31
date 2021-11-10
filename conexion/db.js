@@ -1,7 +1,7 @@
 const mongoDb = require("mongodb");
 const MongoClient = mongoDb.MongoClient;
 
-const dbConnection = "mongodb+srv://cartel-dy:andres123@cluster0.ujzhm.mongodb.net/test";
+const dbConnection = "mongodb+srv://cartel-dy:<password>@cluster0.ujzhm.mongodb.net/test";
 const dbName = "EmpleadoDB";
 const collectionName = "Empleados";
 
